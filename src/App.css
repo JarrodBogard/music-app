@@ -3,18 +3,9 @@ body {
   margin: 0;
 }
 
-/* main {
-  width: 100vw;
-  height: 100vh;
-} */
-
 .app {
   display: flex;
   height: calc(100vh - 64px);
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  /* height: 35vh; */
 }
 
 .dashboard-container {
@@ -24,14 +15,6 @@ body {
   align-content: center;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* margin: 0 auto;
-  width: 50%;
-  height: 80vh; */
-  /* margin-top: 64px;
-  margin-left: 128px; */
-  /* max-width: 80vh;
-  margin: 0 auto; */
 }
 
 .card-container {
@@ -43,9 +26,6 @@ body {
 .form {
   margin: 0 auto;
   align-self: center;
-  /* display: flex;
-  flex-direction: column;
-  align-items: baseline; */
 }
 
 .form input {
@@ -59,9 +39,4 @@ body {
 
 .card-title-container {
   margin-top: 16px;
-}
-
-.system-notifications-container {
-  /* display: flex; */
-  /* flex-direction: column; */
 }

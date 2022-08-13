@@ -4,14 +4,7 @@ import TextField from "@mui/material/TextField";
 
 export default function Input(props) {
   return (
-    <Box
-      component="form"
-      //   sx={{
-      //     "& > :not(style)": { m: 0, width: "30ch" },
-      //   }}
-      noValidate
-      autoComplete="off"
-    >
+    <Box component="form" noValidate autoComplete="off">
       <TextField
         required
         InputLabelProps={{ required: false }}
